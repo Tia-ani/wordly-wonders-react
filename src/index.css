@@ -87,7 +87,7 @@
 
   body {
     @apply bg-background text-foreground;
-    cursor: url("/anishka-uploads/cursor-pencil.svg"), auto;
+    cursor: url("/lovable-uploads/cursor-pencil.svg"), auto;
   }
   
   /* Custom wordle styles */
