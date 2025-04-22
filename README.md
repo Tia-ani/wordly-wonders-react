@@ -19,7 +19,7 @@ A responsive and interactive Wordle-inspired game built with **React**. Guess th
 
 ## 📦 Deployment
 
-Access the live game here: [**Play Now**](https://your-app-url.netlify.app](https://wordly-wonders-react-fhsx.vercel.app/)  
+Access the live game here: [**Play Now**](https://wordly-wonders-react-fhsx.vercel.app/)  
 
 ## 🚧 Future Improvements
 
