@@ -1,71 +1,79 @@
-# Welcome to My project
+GAME RULES:
+A responsive and interactive Wordle-inspired game built with React. Guess the 5-letter word in 6 tries! Colors guide your guesses—green means correct letter & spot, yellow means correct letter but wrong spot, and gray means it's not in the word at all.
 
-## Project info
+🎮 Features
+⚛️ Built with React for smooth, component-based gameplay
+📱 Responsive UI – looks great on desktop and mobile
+✅ Validates real 5-letter words
+🧠 Implements classic Wordle logic for feedback and win conditions
+🚀 Deployed on Netlify for instant access
+🛠 Tech Stack
+HTML
+CSS
+JavaScript
+React
+📦 Deployment
+Access the live game here: Play Now
 
-**URL**: https://lovable.dev/projects/eab25bfa-507a-4d3e-af40-bb2c368e44ee
+🚧 Future Improvements
+🔥 Dark mode
+📊 Guess stats & streak tracker
+🌍 Multiple language support
+🔠 Difficulty levels (e.g. 6-letter, themed words)
+Getting Started with Create React App
+This project was bootstrapped with Create React App.
 
-## How can I edit this code?
+Available Scripts
+In the project directory, you can run:
 
-There are several ways of editing your application.
+npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
 
-Simply visit the [lovable Project](https://lovable.dev/projects/eab25bfa-507a-4d3e-af40-bb2c368e44ee) and start prompting.
+The page will reload when you make changes.
+You may also see any lint errors in the console.
 
-Changes made via lovable will be committed automatically to this repo.
+npm test
+Launches the test runner in the interactive watch mode.
+See the section about running tests for more information.
 
-**Use your preferred IDE**
+npm run build
+Builds the app for production to the build folder.
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in lovable.
+The build is minified and the filenames include the hashes.
+Your app is ready to be deployed!
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+See the section about deployment for more information.
 
-Follow these steps:
+npm run eject
+Note: this is a one-way operation. Once you eject, you can't go back!
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-# Step 3: Install the necessary dependencies.
-npm i
+You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Learn More
+You can learn more in the Create React App documentation.
 
-**Edit a file directly in GitHub**
+To learn React, check out the React documentation.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Code Splitting
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-**Use GitHub Codespaces**
+Analyzing the Bundle Size
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Making a Progressive Web App
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
 
-## What technologies are used for this project?
+Advanced Configuration
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-This project is built with:
+Deployment
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [lovable](https://lovable.dev/projects/eab25bfa-507a-4d3e-af40-bb2c368e44ee) and click on Share -> Publish.
-
-## Can I connect a custom domain to my lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+npm run build fails to minify
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
