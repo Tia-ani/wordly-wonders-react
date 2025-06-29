@@ -1,4 +1,3 @@
-// A simple list of 5-letter words as suggestions
 export const wordList = [
   "ABOUT", "ABOVE", "ABUSE", "ACTOR", "ACUTE", "ADMIT", "ADOPT", "ADORE", "ADULT", "AFTER",
   "AGAIN", "AGENT", "AGREE", "AHEAD", "ALARM", "ALBUM", "ALERT", "ALIKE", "ALIVE", "ALLOW",
@@ -35,13 +34,11 @@ export const wordList = [
   "FIGHT", "FILCH", "FILED", "FILES", "FILET", "FILLS", "FILMS", "FILTH", "FINAL", "FINCH",
 ];
 
-// Function to get a random word from the list
 export function getRandomWord() {
   const randomIndex = Math.floor(Math.random() * wordList.length);
   return wordList[randomIndex];
 }
 
-// Function to check if a word is valid (now just checks if it's 5 letters)
 export function isValidWord(word) {
   return word.length === 5 && /^[A-Za-z]+$/.test(word);
 }

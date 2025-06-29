@@ -1,5 +1,3 @@
-
-// A simple list of 5-letter words to use for the game
 export const wordList = [
   "ABOUT", "ABOVE", "ABUSE", "ACTOR", "ACUTE", "ADMIT", "ADOPT", "ADORE", "ADULT", "AFTER",
   "AGAIN", "AGENT", "AGREE", "AHEAD", "ALARM", "ALBUM", "ALERT", "ALIKE", "ALIVE", "ALLOW",
@@ -36,13 +34,11 @@ export const wordList = [
   "FIGHT", "FILCH", "FILED", "FILES", "FILET", "FILLS", "FILMS", "FILTH", "FINAL", "FINCH",
 ];
 
-// Function to get a random word from the list
 export function getRandomWord(): string {
   const randomIndex = Math.floor(Math.random() * wordList.length);
   return wordList[randomIndex];
 }
 
-// Function to check if a word is in the list
 export function isValidWord(word: string): boolean {
   return wordList.includes(word.toUpperCase());
 }
